@@ -67,10 +67,11 @@ XML format:
 ```sh
 nmap -sS 10.0.2.0/24 -oX scan_results.xml
 ```
-- [scan_results.txt](scan_results.txt)
-- [scan_results.xml](scan_results.xml)
+- [Scan_results.txt](scan_results.txt)
+- [Scan_results.xml](scan_results.xml)
+- [Scan_results.html](scan_results.html)
 
-![ave Results](screenshots/save_results.png)
+![Save Results](screenshots/save_results.png)
 
 ---
 
