@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Nmap Scan Report (Converted from XML)</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f7f7f7; color: #222; }
+    h1, h2, h3 { color: #003366; }
+    table { border-collapse: collapse; width: 90%; margin: 20px auto; background: #fff; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #e6e6e6; }
+    tr:nth-child(even) { background: #f2f2f2; }
+    .host-block { border: 1px solid #aaa; background: #fff; margin: 24px auto; padding: 18px; width: 90%; }
+    .up { color: green; }
+    .down { color: red; }
+    .open { color: #008000; font-weight: bold;}
+    .closed { color: #b00; font-weight: bold;}
+    .filtered { color: #f90; font-weight: bold;}
+    .summary { background: #eef; border: 1px solid #99c; padding: 10px; margin: 24px auto; width: 90%; }
+    .mac { color: #555; font-size: 90%; }
+  </style>
+</head>
+<body>
+  <h1>Nmap Scan Report</h1>
+  <div class="summary">
+    <strong>Scan Arguments:</strong> <code>/usr/lib/nmap/nmap -sS -oX scan_results.xml 10.0.2.0/24</code><br>
+    <strong>Nmap Version:</strong> 7.95<br>
+    <strong>Scan Started:</strong> Mon Aug 4 07:13:13 2025<br>
+    <strong>Scan Finished:</strong> Mon Aug 4 07:13:19 2025<br>
+    <strong>Elapsed:</strong> 6.32 seconds<br>
+    <strong>Hosts Up:</strong> 3<br>
+    <strong>Hosts Down:</strong> 253<br>
+    <strong>Total IPs Scanned:</strong> 256
+  </div>
+
+  <div class="host-block">
+    <h2>Host: 10.0.2.2 <span class="up">(Up)</span></h2>
+    <p class="mac">MAC Address: 52:55:0A:00:02:02</p>
+    <table>
+      <tr>
+        <th>Port</th>
+        <th>State</th>
+        <th>Service</th>
+      </tr>
+      <tr>
+        <td>135/tcp</td>
+        <td class="open">Open</td>
+        <td>msrpc</td>
+      </tr>
+      <tr>
+        <td>445/tcp</td>
+        <td class="open">Open</td>
+        <td>microsoft-ds</td>
+      </tr>
+      <tr>
+        <td>902/tcp</td>
+        <td class="open">Open</td>
+        <td>iss-realsecure</td>
+      </tr>
+      <tr>
+        <td>912/tcp</td>
+        <td class="open">Open</td>
+        <td>apex-mesh</td>
+      </tr>
+      <tr>
+        <td>1001/tcp</td>
+        <td class="open">Open</td>
+        <td>webpush</td>
+      </tr>
+      <tr>
+        <td colspan="3" style="background:#fff; color:#aaa; font-size:90%;">995 filtered TCP ports (not shown)</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="host-block">
+    <h2>Host: 10.0.2.3 <span class="up">(Up)</span></h2>
+    <p class="mac">MAC Address: 52:55:0A:00:02:03</p>
+    <table>
+      <tr>
+        <th>Port</th>
+        <th>State</th>
+        <th>Service</th>
+      </tr>
+      <tr>
+        <td>53/tcp</td>
+        <td class="open">Open</td>
+        <td>domain</td>
+      </tr>
+      <tr>
+        <td colspan="3" style="background:#fff; color:#aaa; font-size:90%;">999 filtered TCP ports (not shown)</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="host-block">
+    <h2>Host: 10.0.2.15 <span class="up">(Up)</span></h2>
+    <table>
+      <tr>
+        <th>Port</th>
+        <th>State</th>
+        <th>Service</th>
+      </tr>
+      <tr>
+        <td colspan="3" class="closed">All 1000 scanned TCP ports are closed.</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="summary">
+    <strong>Summary:</strong><br>
+    Nmap found 3 hosts up out of 256 scanned.<br>
+    Only a few ports were open across the active hosts. Most ports were filtered or closed.<br>
+    See <code>scan_results.xml</code> for full details.
+  </div>
+  <hr>
+  <p style="text-align:center; color:#aaa; font-size:90%;">
+    Generated from <code>scan_results.xml</code> • Powered by Nmap
+  </p>
+</body>
+</html>
