@@ -68,7 +68,7 @@ XML format:
 nmap -sS 10.0.2.0/24 -oX scan_results.xml
 ```
 - [scan_results.txt](scan_results.txt)
-- [scan_results.xml](scan_results.xml)\
+- [scan_results.xml](scan_results.xml)
 
 ![ave Results](screenshots/save_results.png)
 
